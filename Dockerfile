@@ -1,11 +1,9 @@
 FROM python:3.8.5
-FROM jjanzic/docker-python3-opencv
 WORKDIR /YOLOV5_DEEPSORT_PYTORCH
 
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
-RUN pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 RUN apt-get update 
 RUN apt-get install 'ffmpeg'\
     'libsm6'\ 
@@ -16,7 +14,6 @@ RUN apt-get -y install libglib2.0-0
 RUN apt-get -y install libsm6 libxrender-dev libxext6
 RUN apt-get install -y x11-apps
 
-CMD ["/usr/bin/xeyes"]
 COPY track.py .
 ADD deep_sort deep_sort
 ADD yolov5 yolov5

@@ -89,14 +89,12 @@ python track.py --source rtsp://170.93.143.139/rtplive/470011e600ef003a004ee3369
 Build Docker Image
 ``` 
 sudo docker build -t yolodeepsort .
-sudo docker run -t -i --rm yolodeepsort bash
-python track.py --source video.mp4 --output Video/ --view-img --save-txt 
+sudo docker run -it -v /home/cis/Tracker/Video:/YOLO_DEEPSORT_PYTORCH/Video yolodeepsort
 ```
 Or run from Docker Image
 ```
 sudo docker load --input yolodeepsort.tar 
-sudo docker run -t -i --rm yolodeepsort bash
-python track.py --source video.mp4 --output Video/ --view-img --save-txt
+sudo docker run -it -v /home/cis/Tracker/Video:/YOLO_DEEPSORT_PYTORCH/Video yolodeepsort
 ```
 
 

@@ -228,10 +228,10 @@ def detect(opt, save_img=False):
 			            cv2.FONT_HERSHEY_PLAIN, 2, [1, 190, 200], 2)
 
 			# Stream results
-			if view_img:
-				cv2.imshow(p, im0)
-				if cv2.waitKey(1) == ord('q'):  # q to quit
-					raise StopIteration
+			# if view_img:
+			# 	cv2.imshow(p, im0)
+			# 	if cv2.waitKey(1) == ord('q'):  # q to quit
+			# 		raise StopIteration
 
 			# Save results (image with detections)
 			if save_img:
