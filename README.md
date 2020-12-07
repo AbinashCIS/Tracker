@@ -63,10 +63,13 @@ pyhton3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
-Download and copy weights
+Download and copy weights:
 
-yolo weights: https://drive.cisin.com/remote.php/webdav/Tracker/yolov5/weights/yolov5x.pt
-copy `.pt` file to racker/yolov5/weights/
+https://drive.google.com/drive/folders/1FvxPkV8ZdqAVRVA-7g7GAmw94UnsZgly?usp=sharing
+
+copy `yolov5x.pt` file to `Tracker/yolov5/weights/`
+
+copy `ckpt.t7` file to `Tracker/deep_sort/deep_sort/deep/checkpoint`
 
 
 ## Run 
