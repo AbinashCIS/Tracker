@@ -63,6 +63,10 @@ pyhton3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+Download and copy weights
+
+yolo weights: https://drive.cisin.com/remote.php/webdav/Tracker/yolov5/weights/yolov5x.pt
+copy `.pt` file to racker/yolov5/weights/
 
 
 ## Run 
