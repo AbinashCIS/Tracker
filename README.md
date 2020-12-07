@@ -2,38 +2,6 @@
 
 Tracking person in realtime using Yolo and DeepSORT.
 
-# Files
-
-Permissions Size User Date Modified Name
-drwxrwxr-x     - cis   5 Dec 10:37  .
-drwxrwxr-x     - cis   5 Dec 10:33  ├── deep_sort
-drwxrwxr-x     - cis   1 Dec 12:33  │  ├── configs
-drwxrwxr-x     - cis   1 Dec 12:57  │  ├── deep_sort
-drwxrwxr-x     - cis   1 Dec 12:33  │  ├── demo
-drwxrwxr-x     - cis   1 Dec 12:33  │  ├── detector
-.rw-rw-r--  6.1k cis   1 Dec 12:33  │  ├── ped_det_server.py
-.rw-rw-r--  4.9k cis   1 Dec 12:33  │  ├── README.md
-drwxrwxr-x     - cis   1 Dec 12:33  │  ├── scripts
-drwxrwxr-x     - cis   1 Dec 12:57  │  ├── utils
-drwxrwxr-x     - cis   1 Dec 12:33  │  ├── webserver
-.rw-rw-r--  5.5k cis   1 Dec 12:33  │  ├── yolov3_deepsort.py
-.rw-rw-r--  3.0k cis   1 Dec 12:33  │  └── yolov3_deepsort_eval.py
-.rw-rw-r--   841 cis   5 Dec 10:33  ├── requirements.txt
-.rw-rw-r--   10k cis   3 Dec 15:10  ├── track.py
-drwxrwxr-x     - cis   1 Dec 12:33  └── yolov5
-.rw-rw-r--  7.6k cis   1 Dec 12:33     ├── detect.py
-.rw-rw-r--  1.8k cis   1 Dec 12:33     ├── Dockerfile
-.rw-rw-r--  3.4k cis   1 Dec 12:33     ├── hubconf.py
-.rw-rw-r--   35k cis   1 Dec 12:33     ├── LICENSE
-drwxrwxr-x     - cis   1 Dec 12:57     ├── models
-.rwxrwxr-x   10k cis   1 Dec 12:33     ├── README.md
-.rwxrwxr-x   526 cis   1 Dec 12:33     ├── requirements.txt
-.rw-rw-r--   13k cis   1 Dec 12:33     ├── test.py
-.rw-rw-r--   27k cis   1 Dec 12:33     ├── train.py
-.rw-rw-r--  3.3M cis   1 Dec 12:33     ├── tutorial.ipynb
-drwxrwxr-x     - cis   1 Dec 12:57     ├── utils
-drwxrwxr-x     - cis   2 Dec 10:45     └── weights
-
 ## Requirements
 ```
 absl-py==0.11.0
